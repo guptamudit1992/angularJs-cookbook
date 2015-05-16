@@ -1,0 +1,39 @@
+.card {
+	width: 100%;
+	border: solid 1px #dfdfdf;
+	color: black;
+}
+
+.card:hover, .card:focus {
+	box-shadow: 1px 1px 1px 1px #dfdfdf;
+}
+
+.card .thumbnail {
+	border: 0 !important;
+	padding: 0 !important;
+	margin-bottom: 5px;
+}
+
+.card .thumbnail img {
+	width: 100%;
+}
+
+.card .recipe-detail {
+	padding: 5px;
+}
+
+.card .recipe-detail .recipe-title {
+	font: 400 20px sans-serif;
+}
+
+.card .recipe-detail .recipe-title .comments {
+	font: 100 14px sans-serif;
+}
+
+.card .recipe-detail .recipe-author {
+	font: 400 12px sans-serif;
+} 
+
+.card .recipe-detail .recipe-review {
+	text-align: right;
+}

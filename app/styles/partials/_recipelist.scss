@@ -1,0 +1,35 @@
+.wrapper-recipe-list {
+	padding: 20px;
+}
+
+.btn-add:hover, .btn-add:focus {
+	opacity: 0.8;
+}
+
+.recipe-list {
+	margin: 0 auto;
+}
+
+.recipe-list ul {
+  	background: #ecf0f1;
+  	border: solid 1px #ddd;
+}
+
+.recipe-list ul li.active a {
+	background: #dfdfdf !important;
+	outline: none !important;
+}
+
+.recipe-list ul li {
+	width: 33.33%;
+	text-align: center;
+}
+
+.recipe-list ul li a {
+	color: black;
+}
+
+.masonry-brick {
+	width: 320px !important;
+	padding: 10px;
+}

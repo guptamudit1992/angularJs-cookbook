@@ -1,0 +1,29 @@
+<section class="addrecipeform"> 
+	
+	<form name="addrecipeform" ng-submit="submitform()" ng-controller="AddRecipeController">
+		<div class="input-group">
+	  		<span class="input-group-addon"> <i class="glyphicon glyphicon-user mr-5"></i> Author </span>
+	  		<input type="text" class="form-control" placeholder="Please provide name of author here ..." ng-model="recipe.author">
+		</div>
+
+		<div class="input-group">
+	  		<span class="input-group-addon"> <i class="fa fa-bookmark mr-5"></i> Title </span>
+	  		<input type="text" class="form-control" placeholder="Please provide title here ..." ng-model="recipe.title">
+		</div>
+
+		<div class="input-group">
+	  		<span class="input-group-addon"> <i class="fa fa-file-image-o mr-5"></i> Image </span>
+	  		<input type="text" class="form-control" placeholder="Paste url of image here ..." ng-model="recipe.imageURL">
+		</div>
+
+		<div class="input-group">
+	  		<span class="input-group-addon"> <i class="fa fa-quote-left mr-5"></i> Description </span>
+	  		<input type="text" class="form-control" placeholder="Please provide description of recipe here ..." ng-model="recipe.description">
+		</div>
+
+		<div class="action text-center mt-30">
+			<button type="reset" class="btn btn-danger"> CANCEL </button>
+			<button type="submit" class="btn btn-success"> SUBMIT </button>
+		</div>
+	</form>
+</section>

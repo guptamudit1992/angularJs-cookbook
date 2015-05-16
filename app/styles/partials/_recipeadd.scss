@@ -1,0 +1,54 @@
+.addrecipeform {
+	padding: 50px;
+	text-align: center;
+}
+
+.addrecipeform form {
+	padding: 20px;
+	border: solid 1px #dfdfdf;
+	background-color: #ecf0f1;
+}
+
+.addrecipeform form .input-group {
+	margin: 20px;
+	height: 50px;
+}
+
+.addrecipeform form input {
+	height: 50px;
+}
+
+/***** Media Queries ******/
+/******* large Screen Layout ********/
+@media screen and (min-width: 980px) and  (max-width: 1368px) {
+	.addrecipeform form {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+
+/******* Medium Screen Layout ********/
+@media screen and (min-width: 800px) and (max-width: 980px) {
+	.addrecipeform form {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+
+/******* Tablet Screen Layout ********/
+@media screen and (min-width: 400px) and (max-width: 800px) {
+	.addrecipeform form {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+/******* Mobile Screen Layout ********/
+@media screen and (max-width: 400px) {
+	.addrecipeform form {
+			width: 100%;
+			margin: 0 auto;
+		}
+}

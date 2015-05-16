@@ -1,0 +1,41 @@
+.recipe-detail-wrapper {
+	padding: 40px;
+}
+
+.recipe-detail-wrapper img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.recipe-detail-wrapper .recipe-title {
+	font: 400 24px sans-serif;
+}
+
+.recipe-detail-wrapper .recipe-author {
+	margin-bottom: 20px;
+}
+
+.recipe-detail-wrapper .recipe-review-detail-section {
+	margin-bottom: 20px;
+}
+
+.reviewrecipeform {
+	margin-top: 20px;
+	padding: 20px;
+	border: solid 1px #dfdfdf;
+	background-color: #ecf0f1;
+}
+
+.reviewrecipeform form .input-group {
+	margin: 20px;
+	height: 50px;
+}
+
+.reviewrecipeform form input {
+	height: 50px;
+}
+
+.reviewrecipeform form select, .reviewrecipeform form select option {
+	height: 50px;
+	border-radius: 0; 
+}

@@ -1,0 +1,73 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+/* Import scss files */
+@import 'partials/_recipelist';
+@import 'partials/_recipecard';
+@import 'partials/_recipeadd';
+@import 'partials/_recipedetail';
+
+
+/* Variable Declaration */
+$header-color: #27AE60;
+$footer-color: #2C3E50;
+$button-color: #2C3E50;
+$font-family: sans-serif;
+
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Mixin Declaration */
+@mixin background-fill($color) {
+	background-color: $color;
+}
+
+.wrapper-header {
+	@include background-fill($header-color);
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font: 400 24px $font-family;
+}
+
+.wrapper-footer {
+	@include background-fill($footer-color);
+	color: white;
+	padding: 20px;
+	font: 100 13px $font-family;
+}
+
+.wrapper-footer .social-connect {
+	float: right;
+	font-size: 25px;
+	margin-top: -5px;
+	margin-right: 15px; 
+}
+
+a, a:hover, a:focus, .btn:hover, .btn:focus {
+	color: white;
+	text-decoration: none;
+}
+
+.btn-add {
+	padding: 8px 50px;
+	@include background-fill($button-color);
+}
+
+.mr-5 {
+	margin-right: 5px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
