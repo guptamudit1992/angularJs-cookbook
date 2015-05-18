@@ -23,6 +23,8 @@ angular.module('cookbookApp')
 
         $scope.recipe = {};
         dataFactory.postRecipe(formData);
+        
+        $window.location.href = '#/';
   	};
 
  }]);
