@@ -13,4 +13,4 @@ Running `grunt test` will run the unit tests with karma.
 
 
 ## Demo
-You can checkout the application @`https://angularjs-ookbook.firebaseapp.com/app/index.html#/`.
+You can checkout the application [here](https://angularjs-ookbook.firebaseapp.com/app/index.html#/).
